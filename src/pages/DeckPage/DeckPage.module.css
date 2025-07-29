@@ -1,0 +1,14 @@
+.deckPageWrapper{
+    border-top: 2px solid #000;
+    border-radius: 25px 0 0 0;
+    background-image: url('../../assets/images/BACK.svg');
+    height: 100vh;
+    /*width: 100vw;*/
+    margin-top: -20px;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 -5px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

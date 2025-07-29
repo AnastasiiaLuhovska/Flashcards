@@ -1,0 +1,28 @@
+.li{
+    border: 1px solid rgba(0, 0, 0, 0.66);
+    border-radius: 22px 0 0 0;
+    width: 145px;
+    height: 68px;
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.colorPink{
+    background: rgba(240, 175, 204, 0.9);
+    z-index: 1;
+    margin-left: -30px;
+}
+
+.colorPurple{
+    background: rgba(184, 186, 237, 0.9);
+    z-index: 2;
+    margin-left: -30px;}
+
+.ul{
+    display: flex;
+    /*margin-top: 40px;*/
+}

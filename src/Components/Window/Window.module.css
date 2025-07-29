@@ -1,0 +1,11 @@
+
+.windowWrapper{
+    background-image: url('../../assets/images/WINDOW.png');
+    width: 338px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end  ;
+    align-items: center;
+    padding: 35px;
+}
