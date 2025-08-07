@@ -18,3 +18,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.title-wrapper{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 26px;
+}

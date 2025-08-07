@@ -1,11 +1,12 @@
 
 .windowWrapper{
+    position: relative;
     background-image: url('../../assets/images/WINDOW.png');
     width: 338px;
     height: 408px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end  ;
+    justify-content: space-between;
     align-items: center;
-    padding: 35px;
+    padding: 50px 20px 35px 35px;
 }

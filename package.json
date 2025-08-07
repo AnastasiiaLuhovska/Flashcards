@@ -10,15 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.1.0",
+    "axios": "^1.11.0",
     "clsx": "^2.1.1",
     "lazyload": "^2.0.0-rc.2",
     "modern-normalize": "^1.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
     "react-router": "^7.7.0",
-    "react-router-dom": "^7.7.0"
+    "react-router-dom": "^7.7.0",
+    "redux": "^5.0.1",
+    "redux-toolkit": "^1.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

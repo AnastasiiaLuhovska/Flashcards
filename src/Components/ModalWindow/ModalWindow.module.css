@@ -1,0 +1,57 @@
+.window-wrapper{
+    position: absolute;
+    top: 200px;
+    background-image: url('src/assets/images/MODALWINDOW.png');
+    width: 310px;
+    height: 141px;
+    padding: 32px 27px 9px 27px
+}
+
+.input{
+    border-radius: 2px;
+    width: 251px;
+    height: 28px;
+    box-shadow: inset 2px 2px 0 0 rgba(0, 0, 0, 0.25);
+    background: var(--white);
+    padding-left: 15px;
+    display: block;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
+    justify-content: flex-end;
+}
+.button{
+    font-family: var(--finder-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    width: 81px;
+    height: 26px;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25), inset 2px 2px 0 0 rgba(0, 0, 0, 0.15);
+    background: var(--pink);
+}
+
+.label{
+    font-family: var(--finder-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p{
+    padding-left: 5px;
+}
