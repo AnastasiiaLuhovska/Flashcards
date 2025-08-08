@@ -4,8 +4,11 @@
     row-gap: 14px;
     column-gap:14px;
     padding: 0 10px 0 10px;
-    margin: 0 auto;
-    width: 304px
+    margin-left: auto;
+    margin-right: auto;
+    width: 304px;
+    height: 280px
+
 }
 .folders-wrapper{
     display: flex;

@@ -3,10 +3,10 @@
     position: relative;
     background-image: url('../../../public/images/WINDOW.png');
     width: 369px;
-    height: 408px;
+    height: 455px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 15px 35px 15px;
+    padding: 60px 15px 40px 15px;
 }
