@@ -1,16 +1,29 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    z-index: 1000;
+}
+
 .window-wrapper{
-    position: absolute;
-    top: 200px;
-    background-image: url('src/assets/images/MODALWINDOW.png');
-    width: 310px;
-    height: 141px;
+    position: fixed; /* <-- вместо absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../../public/images/MODALWINDOW.png');
+    width: 347px;
+    height: 162px;
     padding: 32px 27px 9px 27px
+
 }
 
 .input{
     border-radius: 2px;
-    width: 251px;
-    height: 28px;
+    width: 290px;
+    height: 30px;
     box-shadow: inset 2px 2px 0 0 rgba(0, 0, 0, 0.25);
     background: var(--white);
     padding-left: 15px;
@@ -26,11 +39,11 @@
 .button{
     font-family: var(--finder-family);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 1.2;
     text-align: center;
-    width: 81px;
-    height: 26px;
+    width: 90px;
+    height: 30px;
     box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25), inset 2px 2px 0 0 rgba(0, 0, 0, 0.15);
     background: var(--pink);
 }
@@ -38,7 +51,7 @@
 .label{
     font-family: var(--finder-family);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1;
     text-align: center;
     display: flex;
@@ -54,4 +67,5 @@
 
 .p{
     padding-left: 5px;
+    margin-bottom: 8px;
 }

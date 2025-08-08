@@ -19,18 +19,21 @@ const handleClick = ()=>{
 }
 
     return (
-        <div className={s['window-wrapper']}>
-            <form className={s.form} onSubmit={handleSubmit}>
-                <label className={s.label}>
-                    <p className={s.p}>Folder</p>
-                    <input className={s.input} name='folder'/>
-                </label>
-                <div className={s['button-wrapper']}>
-                <button className={s.button} type='button' onClick={handleClick}>Cancel</button>
-                <button className={s.button}  type="submit" >Save</button>
-                </div>
-            </form>
+        <div className={s.backdrop}>
+            <div className={s['window-wrapper']}>
+                <form className={s.form} onSubmit={handleSubmit}>
+                    <label className={s.label}>
+                        <p className={s.p}>Folder</p>
+                        <input className={s.input} name='folder'/>
+                    </label>
+                    <div className={s['button-wrapper']}>
+                        <button className={s.button} type='button' onClick={handleClick}>Cancel</button>
+                        <button className={s.button}  type="submit" >Save</button>
+                    </div>
+                </form>
+            </div>
         </div>
+
     );
 };
 

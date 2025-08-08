@@ -1,8 +1,8 @@
 
 .windowWrapper{
     position: relative;
-    background-image: url('../../assets/images/WINDOW.png');
-    width: 338px;
+    background-image: url('../../../public/images/WINDOW.png');
+    width: 369px;
     height: 408px;
     display: flex;
     flex-direction: column;
