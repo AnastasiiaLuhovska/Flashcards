@@ -1,8 +1,9 @@
-.li{
+.ul{
     display:flex;
     flex-wrap: wrap;
     row-gap: 14px;
-    column-gap: 6px;
+    column-gap:14px;
+    padding: 0 20px 0 20px
 }
 .folders-wrapper{
     display: flex;
