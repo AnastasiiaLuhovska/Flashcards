@@ -3,7 +3,7 @@ import {addFolder} from "../../redux/folders/operations.ts";
 import {toggleFolderModal} from "../../redux/folders/slice.ts";
 
 const AddFolderModal = () => {
-    const fields = ['name']
+    const fields = ['Name']
     const title = 'Add new folder'
     return <UniversalModal fields={fields} fetchAction={addFolder} toggleModal={toggleFolderModal} title={title}/>
 

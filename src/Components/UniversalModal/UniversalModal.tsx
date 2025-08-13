@@ -4,6 +4,7 @@ import type {AppDispatch} from "../../redux/store.ts";
 import s from './UniversalModal.module.css'
 import {Field, Form, Formik, type FormikHelpers, type FormikValues} from "formik";
 import {useParams} from "react-router";
+import clsx from "clsx";
 
 const UniversalModal = <Payload, ThunkArg extends FormikValues>({fields, fetchAction, toggleModal, title}: Props<Payload, ThunkArg>) => {
     const dispatch: AppDispatch = useDispatch()
@@ -21,8 +22,8 @@ const handleClick = ()=>{
     const initialValues = Object.fromEntries(fields.map((field) => [field, '']))
     return (
         <div className={s.backdrop}>
-            <div className={s['window-wrapper']}>
-            <p>{title}</p>
+                <div className={clsx(s['folder-wrapper'], {[s['word-wrapper']]:folderId})}>
+            <p className={s.title}>{title}</p>
                 <Formik<ThunkArg> initialValues={initialValues as ThunkArg} onSubmit={handleSubmit}>
                     <Form className={s.form}>
                         {fields.map(field =><label className={s.label}> <p className={s.p}>{field}</p><Field name={field} type='text' className={s.input}/></label>)}

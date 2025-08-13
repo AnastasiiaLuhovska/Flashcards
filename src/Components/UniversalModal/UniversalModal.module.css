@@ -8,7 +8,7 @@
     z-index: 1000;
 }
 
-.window-wrapper{
+.folder-wrapper{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -20,6 +20,17 @@
 
 }
 
+.word-wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../../public/images/WORDMODALWINDOW.png');
+    width: 347px;
+    height: 235px;
+    padding: 32px 27px 9px 27px
+
+}
 .input{
     border-radius: 2px;
     width: 290px;
@@ -28,12 +39,13 @@
     background: var(--white);
     padding-left: 15px;
     display: block;
+    margin-bottom: 10px;
 }
 
 .button-wrapper{
     display: flex;
     gap: 10px;
-    margin-top: 13px;
+    margin-top: 15px;
     justify-content: flex-end;
 }
 .button{
@@ -67,5 +79,15 @@
 
 .p{
     padding-left: 5px;
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 28px;
+    line-height: 0.75;
+    text-align: center;
+    color: var(--white);
 }
