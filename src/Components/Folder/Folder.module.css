@@ -1,12 +1,20 @@
 .icon-wrapper{
     transition: all 0.2s ease;
-
+    width:85px;
+    height:60px;
     &:hover, &:focus .icon{
         stroke:  var(--hover-pink);
         stroke-width: 3px;
 
     }
 }
+@media screen and (min-width: 768px){
+    .icon-wrapper{
+        width:90px;
+        height:65px;
+    }
+}
+
 
 .p{
     font-family: var(--finder-family);

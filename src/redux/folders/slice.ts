@@ -6,15 +6,15 @@ const initialState: Initial = {
     folders: [],
     error: null,
     isLoading: false,
-    modalIsOpen: false
+    folderModalIsOpen: false
 }
 
 const slice = createSlice({
     name:"folders",
     initialState,
     reducers:{
-        toggleModal: (state)=>{
-            state.modalIsOpen = (!state.modalIsOpen)
+        toggleFolderModal: (state)=>{
+            state.folderModalIsOpen = (!state.folderModalIsOpen)
         }
     },
     extraReducers: (builder)=>{
@@ -47,4 +47,4 @@ const slice = createSlice({
 })
 
 export const foldersReducer = slice.reducer
-export const {toggleModal} = slice.actions
+export const {toggleFolderModal} = slice.actions

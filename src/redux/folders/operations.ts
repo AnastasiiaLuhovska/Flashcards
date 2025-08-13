@@ -1,10 +1,11 @@
 import {createAsyncThunk} from "@reduxjs/toolkit";
-import axios, {AxiosError} from "axios";
-import type {FolderType} from "../../types.ts";
+import  {AxiosError} from "axios";
+import type {Folder, FolderType} from "../../types.ts";
+import {instance} from "../../api/api.ts";
 
 export const getFolders = createAsyncThunk<FolderType[], void, {rejectValue: string}>('getFolders', async(_, thunkAPI)=>{
           try{
-                const {data} = await axios.get('https://flashcards-backend-1-b0wo.onrender.com/folders')
+                const {data} = await instance.get('/folders')
                 return data.data
         }catch(e){
                 if (e instanceof AxiosError){
@@ -16,9 +17,9 @@ export const getFolders = createAsyncThunk<FolderType[], void, {rejectValue: str
         }
 })
 
-export const addFolder = createAsyncThunk<FolderType, {name: string}, {rejectValue: string}>('addFolder', async(folder, thunkAPI)=>{
+export const addFolder = createAsyncThunk<FolderType, Folder, {rejectValue: string}>('addFolder', async(folder, thunkAPI)=>{
     try{
-        const {data} = await axios.post('https://flashcards-backend-1-b0wo.onrender.com/folders', folder)
+        const {data} = await instance.post('/folders', folder)
         return data.data
     }catch(e){
         if(e instanceof AxiosError){

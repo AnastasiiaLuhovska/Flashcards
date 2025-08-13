@@ -9,7 +9,9 @@ const FoldersList = () => {
 
     return (
         <div className={s['folders-wrapper']}>
+
             <ul className={s.ul}>{folders.map((folder) => <Folder key={folder['_id']} folder={folder}/>)}</ul>
+
         </div>
 
 
