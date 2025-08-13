@@ -20,6 +20,12 @@
 
     }
 }
+@media screen and (min-width: 1280px){
+    .li{
+        width: 500px;
+
+    }
+}
 
 .colorPink{
     background: rgba(240, 175, 204, 0.9);
