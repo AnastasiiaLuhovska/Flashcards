@@ -1,0 +1,11 @@
+.word-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.p-wrapper{
+    display: flex;
+}
+.svg-wrapper{
+    display: flex;
+}

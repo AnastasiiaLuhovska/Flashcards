@@ -10,6 +10,7 @@ const UniversalModal = <Payload, ThunkArg extends FormikValues>({fields, fetchAc
     const dispatch: AppDispatch = useDispatch()
     const { folderId } = useParams()
     const handleSubmit = (values: ThunkArg, actions: FormikHelpers<ThunkArg>) => {
+        console.log(values)
         {folderId? dispatch(fetchAction({...values, folderId})): dispatch(fetchAction(values))}
         dispatch(toggleModal())
         actions.resetForm()

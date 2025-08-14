@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const instance = axios.create({
-    baseURL: 'https://flashcards-backend-1-b0wo.onrender.com'
+    baseURL: 'https://flashcards-backend-production-146c.up.railway.app'
 })
