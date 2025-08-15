@@ -5,7 +5,9 @@
 }
 .p-wrapper{
     display: flex;
+    gap: 10px
 }
 .svg-wrapper{
     display: flex;
+    gap: 10px
 }

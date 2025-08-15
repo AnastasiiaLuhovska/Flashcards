@@ -29,6 +29,11 @@
 <path fill="#e3c438" style="fill: var(--color14, #e3c438)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6842" stroke="#000" d="M14.937 0.842v14h14.849v16.316h-23.77v-30.316h8.921z"></path>
 <path fill="#e3c438" style="fill: var(--color14, #e3c438)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6842" stroke="#000" d="M28.506 9.158h-7.641v-7.207l7.641 7.207z"></path>
 </symbol>
+    <symbol id="icon-dots" viewBox="0 0 101 32">
+        <path fill="#fff" style="fill: var(--color1, #fff)" d="M77.333 26.667c7.364 0 13.333-5.97 13.333-13.333s-5.97-13.333-13.333-13.333c-7.364 0-13.333 5.97-13.333 13.333s5.97 13.333 13.333 13.333z"></path>
+        <path fill="#fff" style="fill: var(--color1, #fff)" d="M45.333 26.667c7.364 0 13.333-5.97 13.333-13.333s-5.97-13.333-13.333-13.333c-7.364 0-13.333 5.97-13.333 13.333s5.97 13.333 13.333 13.333z"></path>
+        <path fill="#fff" style="fill: var(--color1, #fff)" d="M13.333 26.667c7.364 0 13.333-5.97 13.333-13.333s-5.97-13.333-13.333-13.333c-7.364 0-13.333 5.97-13.333 13.333s5.97 13.333 13.333 13.333z"></path>
+    </symbol>
     <symbol id="icon-folder" viewBox="0 0 32 32">
         <path fill="#efce4a" style="fill: var(--color1, #efce4a)" d="M25.558 28.966h-24.695c-0.568 0-0.982-0.54-0.833-1.089l5.609-15.377c0.102-0.376 0.443-0.638 0.833-0.638h24.695c0.568 0 0.833 0.543 0.833 1.089l-5.609 15.377c-0.102 0.376-0.443 0.638-0.833 0.638z"></path>
         <path fill="#ebba16" style="fill: var(--color2, #ebba16)" d="M27.734 6.897h-13.941l-2.759-3.862h-10.079c-0.527 0-0.956 0.428-0.956 0.956v23.574c0.038 0.001 0.076 0.003 0.113 0.006l5.526-15.070c0.102-0.377 0.443-0.638 0.833-0.638h22.218v-4.010c0-0.528-0.428-0.956-0.956-0.956z"></path>

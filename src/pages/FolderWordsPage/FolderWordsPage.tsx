@@ -5,20 +5,23 @@ import {getWordsByFolderId} from "../../redux/words/operations.ts";
 import {useParams} from "react-router";
 import {getWordsSelector} from "../../redux/words/selectors.ts";
 import Word from "../../Components/Word/Word.tsx";
+import s from './FolderWordsPage.module.css'
 
 const FolderWordsPage = () => {
     const {folderId} = useParams()
     const dispatch:AppDispatch= useDispatch()
+
     useEffect(()=>{
         const getWords = async()=>{
             dispatch(getWordsByFolderId(folderId))
         }
         getWords()
+
     }, [])
 
     const words = useSelector(getWordsSelector)
     return (
-        <ul>
+        <ul className={s.ul}>
             {words.map((word)=> <li key={word['_id']}><Word word={word}></Word></li>)}
         </ul>
     );

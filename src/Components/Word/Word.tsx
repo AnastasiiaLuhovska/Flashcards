@@ -8,7 +8,10 @@ const Word = ({word}:{word:WordType}) => {
             <p>{word.word} - {word.translation}</p>
             </div>
             <div className={s['svg-wrapper']}>
-                <svg width='20' height='20'><use href='/symbol-defs.svg#icon-pencil'></use></svg>
+                <svg width='20' height='20'>
+                    <use href='/symbol-defs.svg#icon-pencil'></use>
+                </svg>
+                <img src="/trash.svg" alt="trash-icon" width="25" height="30"/>
             </div>
         </div>
     );

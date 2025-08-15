@@ -1,14 +1,14 @@
 @import url('modern-normalize/modern-normalize.css');
 @font-face {
     font-family: 'ChiKareGo2';
-    src: url('../fonts/ChiKareGo2.woff2') format('woff2');
+    src: url('../../public/fonts/ChiKareGo2.woff2') format('woff2');
     font-style: normal;
     font-weight: 500;
     font-display: swap;
 }
 @font-face {
-    font-family: 'FindersKeepers';
-    src: url('../fonts/FindersKeepers.woff2') format('woff2');
+    font-family: 'Glasstown';
+    src: url('../../public/fonts/Glasstown-NBP.woff2') format('woff2');
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -18,7 +18,7 @@
     /* Fonts */
 
     --chikare-family: 'ChiKareGo2', sans-serif;
-    --finder-family: 'FindersKeepers', sans-serif;
+    --finder-family: "Glasstown", monospace;
     /* colors */
 
     --pink: #e9adcb;

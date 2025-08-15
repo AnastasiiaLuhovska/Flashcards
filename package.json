@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react95/clippy": "^2.0.2",
     "@reduxjs/toolkit": "^2.8.2",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.1.0",
     "axios": "^1.11.0",
+    "clippyjs": "^0.0.3",
     "clsx": "^2.1.1",
     "formik": "^2.4.6",
     "lazyload": "^2.0.0-rc.2",
